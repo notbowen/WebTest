@@ -1,0 +1,44 @@
+.content {
+    font-family: "Audiowide", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.right {
+    float: right;
+}
+
+a.active {
+    background-color: #08ac6c;
+    transition: background-color;
+    transition-duration: 1s;
+}
+
+a.active:hover {
+    background-color: #078c59;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color;
+    transition-duration: 1s;
+}
+
+li a:hover {
+    background-color: #111;
+}
